@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Cabin:wght@700&family=Lato:wght@900&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*display*/
+.grid-container-all{
+    background-color: rgb(73, 73, 97);   
+     display: grid;
+     grid-template-rows: 200px 200px 200px 200px;
+     grid-template-columns: 200px 200px 200px 200px;
+     font-family: 'Cabin', sans-serif; 
+
+ }
+pre{
+    
+    margin-left: 39px;
+    font-size: 10px;
+    
+}
+.container-display2{
+    margin-left: 173px;
+    margin-top: 162px;
+    font-weight: bolder;
+    margin-bottom: 1px;
+    font-size: 11px;
+    color: white;
+}
+.box{
+    width: 50px;
+    height: 17px;
+    background-color: rgb(20, 20, 20);
+    margin-left: 33px;
+    border-radius: 12px;
+    
+    }
+.cercle{
+    width: 11px;
+    height: 12px;
+    background-color: #ce2305;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+h2{
+    margin-top: -22px;
+    margin-left: -227px;
+    font-weight: bolder;
+    font-size: 18px;
+    color: white;
+}
+h6{
+    margin-left: -12px;
+    text-transform: uppercase;
+    font-size: 9px;
+    color: white;
+   }
+   .title-new{
+    margin-top: -13px
+   }
+
+
+.container-display1{
+    grid-area: 1/4;
+}
+.container-display3{
+ grid-area: 2/4 ;
+border: solid;
+border-radius: 7px;
+color: white;
+border-color: rgb(11, 11, 27);
+padding: 19px;
+margin-left: -60px;
+margin-right: -60px;
+margin-top: 17px;
+text-align: right;
+background-color: rgb(11, 11, 27);
+font-size: 25px;
+}
+
+/*calculator*/
+.grid-container-calculator{
+    display: grid;
+    grid-template-rows: 48px 48px 48px 48px;
+    grid-template-columns: 75px 75px 75px 58px;
+    justify-content: center;
+    align-items: center;
+    grid-area: 3/4;
+    margin: -60px;
+    margin-block: -105px;
+    background-color: rgb(28, 28, 49);
+    margin-bottom: 21px;
+    border-radius: 7px;
+       
+}
+.button-num{
+    padding: 10px ;
+     margin: 0px;
+     margin-top: 30px;
+     width: 40px;
+     height: 17px;
+ background-color: rgb(223, 213, 213);
+    border-radius: 7px;
+     color:  rgb(28, 28, 49);
+     font-size: 23px;
+     align-items:center;
+     justify-content: center;
+     font-weight: bolder;
+     display: flex;
+     border-bottom: 3px solid gray;
+     }
+    
+     .touche-unique{
+        background-color:rgb(113, 113, 165) ;
+        text-transform: uppercase;
+        font-weight: bolder;
+        padding: 10px ;
+        margin: 0px;
+        margin-top: 30px;
+        width: 40px;
+        height: 17px;
+        border-radius: 5px;
+        font-size: medium;
+        font-weight: bolder;
+        align-items:center;
+        justify-content: center;
+        display: flex;
+        color: white;
+        border-bottom: 3px solid rgb(81, 81, 122);
+    }
+.reset{
+    margin-bottom: -16px;
+    margin-top: -10px;
+   background-color: rgb(113, 113, 165);
+   margin-left: 0px;
+    margin-right: -62px;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    font-size : 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 3px solid rgb(81, 81, 122);
+}
+.equal{
+     margin-top: 8px;
+    background-color: rgba(235, 77, 50, 0.76);
+    margin-left: 74px;
+    margin-right: -137px;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 3px solid rgb(102, 29, 29);
+        }
+     
+
+.number{
+    
+    margin-left: 68px;
+    margin-top: 12px;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
+  
