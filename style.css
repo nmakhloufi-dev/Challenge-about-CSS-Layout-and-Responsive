@@ -5,8 +5,11 @@
     padding: 0;
 }
 /*display*/
+html{
+   background-color: rgb(73, 73, 97);  
+}
 .grid-container-all{
-    background-color: rgb(73, 73, 97);   
+      
      display: grid;
      grid-template-rows: 200px 200px 200px 200px;
      grid-template-columns: 200px 200px 200px 200px;
@@ -100,8 +103,8 @@ font-size: 25px;
      margin-top: 30px;
      width: 40px;
      height: 17px;
- background-color: rgb(223, 213, 213);
-    border-radius: 7px;
+     background-color: rgb(223, 213, 213);
+     border-radius: 7px;
      color:  rgb(28, 28, 49);
      font-size: 23px;
      align-items:center;
@@ -159,15 +162,83 @@ font-size: 25px;
         }
      
 
-.number{
+/*.number{
     
     margin-left: 68px;
     margin-top: 12px;
-}
+}*/
 
-@media screen and (min-width: 600px) {
-    .container {
-      margin: 1em 2em;
-    }
-  }
+@media screen and (max-width: 600px) {
+    
+    .grid-container-all {
+        grid-template-columns: 1fr;
+        margin: 116px;
+        margin-top: 26px;
+              }
+    
+      .container-display2 {
+        
+                margin-top: 19px;
+        
+           }
+    
+      .box {
+        width: 44px; 
+        height: 19px; 
+        margin-left: 30px;
+        padding-right: 27px;
+       padding-top: 5px;
+       margin-block: 32px;
+              }
+        pre{
+            margin-top: 46px;
+            margin-bottom: -21px;  
+            letter-spacing: 3px;
+        }
+    
+        h2 {
+        margin-left: -161px; 
+         margin-top: -58px;
+         }
+    
+         .container-display3 {
+        margin-left: 0px;
+        margin-right: 3px;
+    }  
+    
+    .grid-container-calculator{
+       margin-bottom: 51px;
+        margin-top: -201px;
+        margin-right: 1px;
+        margin-left: 0px;
+        padding-top: 8px;
+        grid-template-rows: 64px 64px 64px 64px;
+    grid-template-columns: 58px 55px 55px 48px;
+        
+        }
+.button-num{
+    width: 28px;
+    height: 34px;
+}
+.reset{
+    width: 86px;
+    height: 21px;
+    margin-bottom: 1px;
+    margin-top: 27px;
+    font-weight: bolder;
+}
+.equal{
+    width: 86px;
+    height: 21px;
+    margin-bottom: 1px;
+    margin-top: 27px;
+    margin-left: 55px;
+    font-weight: bolder;
+}
+.touche-unique{
+    width: 28px;
+    height: 34px;
+}
+        }
+  
   
